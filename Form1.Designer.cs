@@ -28,46 +28,56 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            bntA = new Button();
             textBox1 = new TextBox();
-            label1 = new Label();
-            B = new Button();
-            C = new Button();
-            D = new Button();
-            E = new Button();
-            F = new Button();
-            G = new Button();
-            H = new Button();
-            I = new Button();
-            J = new Button();
-            K = new Button();
-            L = new Button();
-            M = new Button();
-            N = new Button();
-            O = new Button();
-            Q = new Button();
-            P = new Button();
-            R = new Button();
-            S = new Button();
-            T = new Button();
-            V = new Button();
-            U = new Button();
-            W = new Button();
-            Z = new Button();
-            Y = new Button();
-            X = new Button();
-            label2 = new Label();
+            lblTITOLO = new Label();
+            bntB = new Button();
+            bntC = new Button();
+            bntD = new Button();
+            bntE = new Button();
+            bntF = new Button();
+            bntG = new Button();
+            bntH = new Button();
+            bntI = new Button();
+            bntJ = new Button();
+            bntK = new Button();
+            bntL = new Button();
+            bntM = new Button();
+            bntN = new Button();
+            bntO = new Button();
+            bntQ = new Button();
+            bntP = new Button();
+            bntR = new Button();
+            bntS = new Button();
+            bntT = new Button();
+            bntV = new Button();
+            bntU = new Button();
+            bntW = new Button();
+            bntZ = new Button();
+            bntY = new Button();
+            bntX = new Button();
+            lblTASTIERA = new Label();
+            GeneraParola = new Button();
+            DIFFICOLTA = new Label();
+            FACILE = new Button();
+            MEDIA = new Button();
+            DIFFICILE = new Button();
+            CATEGORIA = new Label();
+            CALCIO = new Button();
+            COLORI = new Button();
+            PAESI = new Button();
+            lblTrattini = new Label();
             SuspendLayout();
             // 
-            // button1
+            // bntA
             // 
-            button1.Location = new Point(26, 294);
-            button1.Name = "button1";
-            button1.Size = new Size(18, 23);
-            button1.TabIndex = 0;
-            button1.Text = "A";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            bntA.Location = new Point(19, 199);
+            bntA.Name = "bntA";
+            bntA.Size = new Size(18, 23);
+            bntA.TabIndex = 0;
+            bntA.Text = "A";
+            bntA.UseVisualStyleBackColor = true;
+            bntA.Click += bntA_Click;
             // 
             // textBox1
             // 
@@ -76,324 +86,464 @@
             textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 1;
             // 
-            // label1
+            // lblTITOLO
             // 
-            label1.AutoSize = true;
-            label1.ForeColor = Color.Red;
-            label1.Location = new Point(240, 41);
-            label1.Name = "label1";
-            label1.Size = new Size(137, 15);
-            label1.TabIndex = 2;
-            label1.Text = "GIOCO DELL'IMPICCATO";
-            label1.Click += label1_Click;
+            lblTITOLO.AutoSize = true;
+            lblTITOLO.Font = new Font("Segoe UI Semibold", 48F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblTITOLO.ForeColor = Color.Red;
+            lblTITOLO.Location = new Point(33, 19);
+            lblTITOLO.Name = "lblTITOLO";
+            lblTITOLO.Size = new Size(755, 86);
+            lblTITOLO.TabIndex = 2;
+            lblTITOLO.Text = "GIOCO DELL'IMPICCATO";
             // 
-            // B
+            // bntB
             // 
-            B.Location = new Point(50, 294);
-            B.Name = "B";
-            B.Size = new Size(18, 23);
-            B.TabIndex = 3;
-            B.Text = "B";
-            B.UseVisualStyleBackColor = true;
+            bntB.Location = new Point(43, 199);
+            bntB.Name = "bntB";
+            bntB.Size = new Size(18, 23);
+            bntB.TabIndex = 3;
+            bntB.Text = "B";
+            bntB.UseVisualStyleBackColor = true;
+            bntB.Click += bntB_Click;
             // 
-            // C
+            // bntC
             // 
-            C.Location = new Point(74, 294);
-            C.Name = "C";
-            C.Size = new Size(18, 23);
-            C.TabIndex = 4;
-            C.Text = "C";
-            C.UseVisualStyleBackColor = true;
+            bntC.Location = new Point(67, 199);
+            bntC.Name = "bntC";
+            bntC.Size = new Size(18, 23);
+            bntC.TabIndex = 4;
+            bntC.Text = "C";
+            bntC.UseVisualStyleBackColor = true;
+            bntC.Click += bntC_Click;
             // 
-            // D
+            // bntD
             // 
-            D.Location = new Point(98, 294);
-            D.Name = "D";
-            D.Size = new Size(18, 23);
-            D.TabIndex = 5;
-            D.Text = "D";
-            D.UseVisualStyleBackColor = true;
+            bntD.Location = new Point(91, 199);
+            bntD.Name = "bntD";
+            bntD.Size = new Size(18, 23);
+            bntD.TabIndex = 5;
+            bntD.Text = "D";
+            bntD.UseVisualStyleBackColor = true;
+            bntD.Click += bntD_Click;
             // 
-            // E
+            // bntE
             // 
-            E.Location = new Point(122, 294);
-            E.Name = "E";
-            E.Size = new Size(18, 23);
-            E.TabIndex = 6;
-            E.Text = "E";
-            E.UseVisualStyleBackColor = true;
+            bntE.Location = new Point(115, 199);
+            bntE.Name = "bntE";
+            bntE.Size = new Size(18, 23);
+            bntE.TabIndex = 6;
+            bntE.Text = "E";
+            bntE.UseVisualStyleBackColor = true;
+            bntE.Click += bntE_Click;
             // 
-            // F
+            // bntF
             // 
-            F.Location = new Point(146, 294);
-            F.Name = "F";
-            F.Size = new Size(18, 23);
-            F.TabIndex = 7;
-            F.Text = "F";
-            F.UseVisualStyleBackColor = true;
+            bntF.Location = new Point(139, 199);
+            bntF.Name = "bntF";
+            bntF.Size = new Size(18, 23);
+            bntF.TabIndex = 7;
+            bntF.Text = "F";
+            bntF.UseVisualStyleBackColor = true;
+            bntF.Click += bntF_Click;
             // 
-            // G
+            // bntG
             // 
-            G.Location = new Point(170, 294);
-            G.Name = "G";
-            G.Size = new Size(18, 23);
-            G.TabIndex = 8;
-            G.Text = "G";
-            G.UseVisualStyleBackColor = true;
+            bntG.Location = new Point(163, 199);
+            bntG.Name = "bntG";
+            bntG.Size = new Size(18, 23);
+            bntG.TabIndex = 8;
+            bntG.Text = "G";
+            bntG.UseVisualStyleBackColor = true;
+            bntG.Click += bntG_Click;
             // 
-            // H
+            // bntH
             // 
-            H.Location = new Point(194, 294);
-            H.Name = "H";
-            H.Size = new Size(18, 23);
-            H.TabIndex = 9;
-            H.Text = "H";
-            H.UseVisualStyleBackColor = true;
+            bntH.Location = new Point(187, 199);
+            bntH.Name = "bntH";
+            bntH.Size = new Size(18, 23);
+            bntH.TabIndex = 9;
+            bntH.Text = "H";
+            bntH.UseVisualStyleBackColor = true;
+            bntH.Click += bntH_Click;
             // 
-            // I
+            // bntI
             // 
-            I.Location = new Point(218, 294);
-            I.Name = "I";
-            I.Size = new Size(18, 23);
-            I.TabIndex = 10;
-            I.Text = "I";
-            I.UseVisualStyleBackColor = true;
+            bntI.Location = new Point(211, 199);
+            bntI.Name = "bntI";
+            bntI.Size = new Size(18, 23);
+            bntI.TabIndex = 10;
+            bntI.Text = "I";
+            bntI.UseVisualStyleBackColor = true;
+            bntI.Click += bntI_Click;
             // 
-            // J
+            // bntJ
             // 
-            J.Location = new Point(242, 294);
-            J.Name = "J";
-            J.Size = new Size(18, 23);
-            J.TabIndex = 11;
-            J.Text = "J";
-            J.UseVisualStyleBackColor = true;
+            bntJ.Location = new Point(235, 199);
+            bntJ.Name = "bntJ";
+            bntJ.Size = new Size(18, 23);
+            bntJ.TabIndex = 11;
+            bntJ.Text = "J";
+            bntJ.UseVisualStyleBackColor = true;
+            bntJ.Click += bntJ_Click;
             // 
-            // K
+            // bntK
             // 
-            K.Location = new Point(266, 294);
-            K.Name = "K";
-            K.Size = new Size(18, 23);
-            K.TabIndex = 12;
-            K.Text = "K";
-            K.UseVisualStyleBackColor = true;
+            bntK.Location = new Point(259, 199);
+            bntK.Name = "bntK";
+            bntK.Size = new Size(18, 23);
+            bntK.TabIndex = 12;
+            bntK.Text = "K";
+            bntK.UseVisualStyleBackColor = true;
+            bntK.Click += bntK_Click;
             // 
-            // L
+            // bntL
             // 
-            L.Location = new Point(290, 294);
-            L.Name = "L";
-            L.Size = new Size(18, 23);
-            L.TabIndex = 13;
-            L.Text = "L";
-            L.UseVisualStyleBackColor = true;
+            bntL.Location = new Point(283, 199);
+            bntL.Name = "bntL";
+            bntL.Size = new Size(18, 23);
+            bntL.TabIndex = 13;
+            bntL.Text = "L";
+            bntL.UseVisualStyleBackColor = true;
+            bntL.Click += bntL_Click;
             // 
-            // M
+            // bntM
             // 
-            M.Location = new Point(314, 294);
-            M.Name = "M";
-            M.Size = new Size(18, 23);
-            M.TabIndex = 14;
-            M.Text = "M";
-            M.UseVisualStyleBackColor = true;
+            bntM.Location = new Point(307, 199);
+            bntM.Name = "bntM";
+            bntM.Size = new Size(18, 23);
+            bntM.TabIndex = 14;
+            bntM.Text = "M";
+            bntM.UseVisualStyleBackColor = true;
+            bntM.Click += bntM_Click;
             // 
-            // N
+            // bntN
             // 
-            N.Location = new Point(26, 342);
-            N.Name = "N";
-            N.Size = new Size(18, 23);
-            N.TabIndex = 15;
-            N.Text = "N";
-            N.UseVisualStyleBackColor = true;
+            bntN.Location = new Point(19, 247);
+            bntN.Name = "bntN";
+            bntN.Size = new Size(18, 23);
+            bntN.TabIndex = 15;
+            bntN.Text = "N";
+            bntN.UseVisualStyleBackColor = true;
+            bntN.Click += bntN_Click;
             // 
-            // O
+            // bntO
             // 
-            O.Location = new Point(50, 342);
-            O.Name = "O";
-            O.Size = new Size(18, 23);
-            O.TabIndex = 16;
-            O.Text = "O";
-            O.UseVisualStyleBackColor = true;
+            bntO.Location = new Point(43, 247);
+            bntO.Name = "bntO";
+            bntO.Size = new Size(18, 23);
+            bntO.TabIndex = 16;
+            bntO.Text = "O";
+            bntO.UseVisualStyleBackColor = true;
+            bntO.Click += bntO_Click;
             // 
-            // Q
+            // bntQ
             // 
-            Q.Location = new Point(98, 342);
-            Q.Name = "Q";
-            Q.Size = new Size(18, 23);
-            Q.TabIndex = 17;
-            Q.Text = "Q";
-            Q.UseVisualStyleBackColor = true;
+            bntQ.Location = new Point(91, 247);
+            bntQ.Name = "bntQ";
+            bntQ.Size = new Size(18, 23);
+            bntQ.TabIndex = 17;
+            bntQ.Text = "Q";
+            bntQ.UseVisualStyleBackColor = true;
+            bntQ.Click += bntQ_Click;
             // 
-            // P
+            // bntP
             // 
-            P.Location = new Point(74, 342);
-            P.Name = "P";
-            P.Size = new Size(18, 23);
-            P.TabIndex = 18;
-            P.Text = "P";
-            P.UseVisualStyleBackColor = true;
+            bntP.Location = new Point(67, 247);
+            bntP.Name = "bntP";
+            bntP.Size = new Size(18, 23);
+            bntP.TabIndex = 18;
+            bntP.Text = "P";
+            bntP.UseVisualStyleBackColor = true;
+            bntP.Click += bntP_Click;
             // 
-            // R
+            // bntR
             // 
-            R.Location = new Point(122, 342);
-            R.Name = "R";
-            R.Size = new Size(18, 23);
-            R.TabIndex = 19;
-            R.Text = "R";
-            R.UseVisualStyleBackColor = true;
+            bntR.Location = new Point(115, 247);
+            bntR.Name = "bntR";
+            bntR.Size = new Size(18, 23);
+            bntR.TabIndex = 19;
+            bntR.Text = "R";
+            bntR.UseVisualStyleBackColor = true;
+            bntR.Click += bntR_Click;
             // 
-            // S
+            // bntS
             // 
-            S.Location = new Point(146, 342);
-            S.Name = "S";
-            S.Size = new Size(18, 23);
-            S.TabIndex = 20;
-            S.Text = "S";
-            S.UseVisualStyleBackColor = true;
+            bntS.Location = new Point(139, 247);
+            bntS.Name = "bntS";
+            bntS.Size = new Size(18, 23);
+            bntS.TabIndex = 20;
+            bntS.Text = "S";
+            bntS.UseVisualStyleBackColor = true;
+            bntS.Click += bntS_Click;
             // 
-            // T
+            // bntT
             // 
-            T.Location = new Point(170, 342);
-            T.Name = "T";
-            T.Size = new Size(18, 23);
-            T.TabIndex = 21;
-            T.Text = "T";
-            T.UseVisualStyleBackColor = true;
+            bntT.Location = new Point(163, 247);
+            bntT.Name = "bntT";
+            bntT.Size = new Size(18, 23);
+            bntT.TabIndex = 21;
+            bntT.Text = "T";
+            bntT.UseVisualStyleBackColor = true;
+            bntT.Click += bntT_Click;
             // 
-            // V
+            // bntV
             // 
-            V.Location = new Point(218, 342);
-            V.Name = "V";
-            V.Size = new Size(18, 23);
-            V.TabIndex = 22;
-            V.Text = "V";
-            V.UseVisualStyleBackColor = true;
+            bntV.Location = new Point(211, 247);
+            bntV.Name = "bntV";
+            bntV.Size = new Size(18, 23);
+            bntV.TabIndex = 22;
+            bntV.Text = "V";
+            bntV.UseVisualStyleBackColor = true;
+            bntV.Click += bntV_Click;
             // 
-            // U
+            // bntU
             // 
-            U.Location = new Point(194, 342);
-            U.Name = "U";
-            U.Size = new Size(18, 23);
-            U.TabIndex = 23;
-            U.Text = "U";
-            U.UseVisualStyleBackColor = true;
+            bntU.Location = new Point(187, 247);
+            bntU.Name = "bntU";
+            bntU.Size = new Size(18, 23);
+            bntU.TabIndex = 23;
+            bntU.Text = "U";
+            bntU.UseVisualStyleBackColor = true;
+            bntU.Click += bntU_Click;
             // 
-            // W
+            // bntW
             // 
-            W.Location = new Point(240, 342);
-            W.Name = "W";
-            W.Size = new Size(18, 23);
-            W.TabIndex = 24;
-            W.Text = "W";
-            W.UseVisualStyleBackColor = true;
+            bntW.Location = new Point(233, 247);
+            bntW.Name = "bntW";
+            bntW.Size = new Size(18, 23);
+            bntW.TabIndex = 24;
+            bntW.Text = "W";
+            bntW.UseVisualStyleBackColor = true;
+            bntW.Click += bntW_Click;
             // 
-            // Z
+            // bntZ
             // 
-            Z.Location = new Point(314, 342);
-            Z.Name = "Z";
-            Z.Size = new Size(18, 23);
-            Z.TabIndex = 25;
-            Z.Text = "Z";
-            Z.UseVisualStyleBackColor = true;
+            bntZ.Location = new Point(307, 247);
+            bntZ.Name = "bntZ";
+            bntZ.Size = new Size(18, 23);
+            bntZ.TabIndex = 25;
+            bntZ.Text = "Z";
+            bntZ.UseVisualStyleBackColor = true;
+            bntZ.Click += bntZ_Click;
             // 
-            // Y
+            // bntY
             // 
-            Y.Location = new Point(290, 342);
-            Y.Name = "Y";
-            Y.Size = new Size(18, 23);
-            Y.TabIndex = 26;
-            Y.Text = "Y";
-            Y.UseVisualStyleBackColor = true;
+            bntY.Location = new Point(283, 247);
+            bntY.Name = "bntY";
+            bntY.Size = new Size(18, 23);
+            bntY.TabIndex = 26;
+            bntY.Text = "Y";
+            bntY.UseVisualStyleBackColor = true;
+            bntY.Click += bntY_Click;
             // 
-            // X
+            // bntX
             // 
-            X.Location = new Point(266, 342);
-            X.Name = "X";
-            X.Size = new Size(18, 23);
-            X.TabIndex = 27;
-            X.Text = "X";
-            X.UseVisualStyleBackColor = true;
+            bntX.Location = new Point(259, 247);
+            bntX.Name = "bntX";
+            bntX.Size = new Size(18, 23);
+            bntX.TabIndex = 27;
+            bntX.Text = "X";
+            bntX.UseVisualStyleBackColor = true;
+            bntX.Click += bntX_Click;
             // 
-            // label2
+            // lblTASTIERA
             // 
-            label2.AutoSize = true;
-            label2.ForeColor = Color.Red;
-            label2.Location = new Point(146, 264);
-            label2.Name = "label2";
-            label2.Size = new Size(56, 15);
-            label2.TabIndex = 28;
-            label2.Text = "TASTIERA";
-            label2.Click += label2_Click;
+            lblTASTIERA.AutoSize = true;
+            lblTASTIERA.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblTASTIERA.ForeColor = Color.Red;
+            lblTASTIERA.Location = new Point(139, 169);
+            lblTASTIERA.Name = "lblTASTIERA";
+            lblTASTIERA.Size = new Size(59, 15);
+            lblTASTIERA.TabIndex = 28;
+            lblTASTIERA.Text = "TASTIERA";
+            // 
+            // GeneraParola
+            // 
+            GeneraParola.Location = new Point(508, 126);
+            GeneraParola.Name = "GeneraParola";
+            GeneraParola.Size = new Size(205, 58);
+            GeneraParola.TabIndex = 29;
+            GeneraParola.Text = "GENERA PAROLA";
+            GeneraParola.UseVisualStyleBackColor = true;
+            GeneraParola.Click += GeneraParola_Click;
+            // 
+            // DIFFICOLTA
+            // 
+            DIFFICOLTA.AutoSize = true;
+            DIFFICOLTA.Font = new Font("Segoe UI Semibold", 21.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            DIFFICOLTA.Location = new Point(78, 301);
+            DIFFICOLTA.Name = "DIFFICOLTA";
+            DIFFICOLTA.Size = new Size(173, 40);
+            DIFFICOLTA.TabIndex = 30;
+            DIFFICOLTA.Text = "DIFFICOLTA";
+            // 
+            // FACILE
+            // 
+            FACILE.Location = new Point(44, 344);
+            FACILE.Name = "FACILE";
+            FACILE.Size = new Size(75, 23);
+            FACILE.TabIndex = 31;
+            FACILE.Text = "FACILE";
+            FACILE.UseVisualStyleBackColor = true;
+            FACILE.Click += FACILE_Click;
+            // 
+            // MEDIA
+            // 
+            MEDIA.Location = new Point(125, 344);
+            MEDIA.Name = "MEDIA";
+            MEDIA.Size = new Size(75, 23);
+            MEDIA.TabIndex = 32;
+            MEDIA.Text = "MEDIA";
+            MEDIA.UseVisualStyleBackColor = true;
+            MEDIA.Click += MEDIA_Click;
+            // 
+            // DIFFICILE
+            // 
+            DIFFICILE.Location = new Point(206, 344);
+            DIFFICILE.Name = "DIFFICILE";
+            DIFFICILE.Size = new Size(75, 23);
+            DIFFICILE.TabIndex = 33;
+            DIFFICILE.Text = "DIFFICILE";
+            DIFFICILE.UseVisualStyleBackColor = true;
+            DIFFICILE.Click += DIFFICILE_Click;
+            // 
+            // CATEGORIA
+            // 
+            CATEGORIA.AutoSize = true;
+            CATEGORIA.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            CATEGORIA.Location = new Point(536, 229);
+            CATEGORIA.Name = "CATEGORIA";
+            CATEGORIA.Size = new Size(127, 30);
+            CATEGORIA.TabIndex = 34;
+            CATEGORIA.Text = "CATEGORIA";
+            // 
+            // CALCIO
+            // 
+            CALCIO.Location = new Point(476, 262);
+            CALCIO.Name = "CALCIO";
+            CALCIO.Size = new Size(75, 23);
+            CALCIO.TabIndex = 35;
+            CALCIO.Text = "CALCIO";
+            CALCIO.UseVisualStyleBackColor = true;
+            // 
+            // COLORI
+            // 
+            COLORI.Location = new Point(557, 262);
+            COLORI.Name = "COLORI";
+            COLORI.Size = new Size(75, 23);
+            COLORI.TabIndex = 36;
+            COLORI.Text = "COLORI";
+            COLORI.UseVisualStyleBackColor = true;
+            // 
+            // PAESI
+            // 
+            PAESI.Location = new Point(638, 262);
+            PAESI.Name = "PAESI";
+            PAESI.Size = new Size(75, 23);
+            PAESI.TabIndex = 37;
+            PAESI.Text = "PAESI";
+            PAESI.UseVisualStyleBackColor = true;
+            // 
+            // lblTrattini
+            // 
+            lblTrattini.AutoSize = true;
+            lblTrattini.Location = new Point(591, 200);
+            lblTrattini.Name = "lblTrattini";
+            lblTrattini.Size = new Size(0, 15);
+            lblTrattini.TabIndex = 38;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(label2);
-            Controls.Add(X);
-            Controls.Add(Y);
-            Controls.Add(Z);
-            Controls.Add(W);
-            Controls.Add(U);
-            Controls.Add(V);
-            Controls.Add(T);
-            Controls.Add(S);
-            Controls.Add(R);
-            Controls.Add(P);
-            Controls.Add(Q);
-            Controls.Add(O);
-            Controls.Add(N);
-            Controls.Add(M);
-            Controls.Add(L);
-            Controls.Add(K);
-            Controls.Add(J);
-            Controls.Add(I);
-            Controls.Add(H);
-            Controls.Add(G);
-            Controls.Add(F);
-            Controls.Add(E);
-            Controls.Add(D);
-            Controls.Add(C);
-            Controls.Add(B);
-            Controls.Add(label1);
+            Controls.Add(lblTrattini);
+            Controls.Add(PAESI);
+            Controls.Add(COLORI);
+            Controls.Add(CALCIO);
+            Controls.Add(CATEGORIA);
+            Controls.Add(DIFFICILE);
+            Controls.Add(MEDIA);
+            Controls.Add(FACILE);
+            Controls.Add(DIFFICOLTA);
+            Controls.Add(GeneraParola);
+            Controls.Add(lblTASTIERA);
+            Controls.Add(bntX);
+            Controls.Add(bntY);
+            Controls.Add(bntZ);
+            Controls.Add(bntW);
+            Controls.Add(bntU);
+            Controls.Add(bntV);
+            Controls.Add(bntT);
+            Controls.Add(bntS);
+            Controls.Add(bntR);
+            Controls.Add(bntP);
+            Controls.Add(bntQ);
+            Controls.Add(bntO);
+            Controls.Add(bntN);
+            Controls.Add(bntM);
+            Controls.Add(bntL);
+            Controls.Add(bntK);
+            Controls.Add(bntJ);
+            Controls.Add(bntI);
+            Controls.Add(bntH);
+            Controls.Add(bntG);
+            Controls.Add(bntF);
+            Controls.Add(bntE);
+            Controls.Add(bntD);
+            Controls.Add(bntC);
+            Controls.Add(bntB);
+            Controls.Add(lblTITOLO);
             Controls.Add(textBox1);
-            Controls.Add(button1);
+            Controls.Add(bntA);
+            ForeColor = Color.Red;
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
+        private Button bntA;
         private TextBox textBox1;
-        private Label label1;
-        private Button B;
-        private Button C;
-        private Button D;
-        private Button E;
-        private Button F;
-        private Button G;
-        private Button H;
-        private Button I;
-        private Button J;
-        private Button K;
-        private Button L;
-        private Button M;
-        private Button N;
-        private Button O;
-        private Button Q;
-        private Button P;
-        private Button R;
-        private Button S;
-        private Button T;
-        private Button V;
-        private Button U;
-        private Button W;
-        private Button Z;
-        private Button Y;
-        private Button X;
-        private Label label2;
+        private Label lblTITOLO;
+        private Button bntB;
+        private Button bntC;
+        private Button bntD;
+        private Button bntE;
+        private Button bntF;
+        private Button bntG;
+        private Button bntH;
+        private Button bntI;
+        private Button bntJ;
+        private Button bntK;
+        private Button bntL;
+        private Button bntM;
+        private Button bntN;
+        private Button bntO;
+        private Button bntQ;
+        private Button bntP;
+        private Button bntR;
+        private Button bntS;
+        private Button bntT;
+        private Button bntV;
+        private Button bntU;
+        private Button bntW;
+        private Button bntZ;
+        private Button bntY;
+        private Button bntX;
+        private Label lblTASTIERA;
+        private Button GeneraParola;
+        private Label DIFFICOLTA;
+        private Button FACILE;
+        private Button MEDIA;
+        private Button DIFFICILE;
+        private Label CATEGORIA;
+        private Button CALCIO;
+        private Button COLORI;
+        private Button PAESI;
+        private Label lblTrattini;
     }
 }
